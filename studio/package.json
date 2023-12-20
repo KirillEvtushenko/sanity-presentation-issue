@@ -1,0 +1,26 @@
+{
+  "name": "sanity-studio",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "sanity dev",
+    "start": "sanity start",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "clean": "rm -rf node_modules && rm -rf dist"
+  },
+  "dependencies": {
+    "@sanity/vision": "3.21.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sanity": "3.21.3",
+    "styled-components": "5.3.11"
+  },
+  "devDependencies": {
+    "@sanity/cli": "^3.16.4",
+    "@sanity/types": "^3.16.4",
+    "@swc/cli": "^0.1.62",
+    "@swc/core": "^1.3.62",
+    "groq": "^2.33.2"
+  }
+}
